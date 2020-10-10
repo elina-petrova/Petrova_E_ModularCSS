@@ -1,0 +1,24 @@
+$side-header-bg: #690800;
+
+header {
+    .bodyC &{
+    height:110px;
+    background-color: $white;
+
+    .clLogo { 
+        position:relative;
+
+        @include transform(50%);
+
+
+        left:40px;
+    }  
+}
+    .sidebarC &{
+        position:relative;
+        background-color: $side-header-bg;
+        height:110px; 
+        font-size:1.25rem;
+        margin:0 -15px;
+    }
+}

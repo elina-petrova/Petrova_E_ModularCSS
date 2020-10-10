@@ -1,0 +1,15 @@
+@mixin boxShadow($xoff, $yoff, $blur, $spread, $color){
+    -moz-box-shadow:    $xoff $yoff $blur $spread $color;    
+    -webkit-box-shadow: $xoff $yoff $blur $spread $color;
+    box-shadow:         $xoff $yoff $blur $spread $color;
+}
+
+@mixin borderRad($radius){
+    -moz-border-radius: $radius; 
+    border-radius: $radius; 
+}
+
+@mixin transform($degree){
+    top: $degree;
+    transform: translateY(-$degree);
+}
