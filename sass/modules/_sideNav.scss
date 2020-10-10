@@ -1,0 +1,48 @@
+$side-bg: #505050;
+$nav-bg-hover: #333;
+
+
+.sidebarC { 
+    background-color: $side-bg; 
+    color: white;
+    position:relative;
+       
+
+        .imgText {
+            position: relative;
+            @include transform(50%);
+            left:12%;
+        }
+
+        p { 
+            display:inline;
+            padding-left:10px;
+            }
+    }
+
+
+    .sNav {
+        font-size:1.45rem;
+        ul {
+            margin: 5px -15px 0;
+            li {
+                margin-top:13px;
+                padding:12px 0 12px 14%;
+
+                &:hover{
+                    background-color: $nav-bg-hover;
+                    cursor:pointer;
+                    color:white;
+                }
+            }
+        }
+
+        i{
+            margin-right: 10px;
+        }
+        span{
+            margin-right: 10px;
+        }
+    }
+    
+

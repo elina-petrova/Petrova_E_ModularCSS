@@ -1,0 +1,13 @@
+.profileImg {
+    border: 3px solid $white;
+}
+
+img {
+    .profPanel &{
+    
+    @extend .profileImg;
+    position:absolute;
+    right:-20px;
+    top:-20px;
+    }
+}
